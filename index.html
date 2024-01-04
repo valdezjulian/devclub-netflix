@@ -40,6 +40,10 @@
                 e filmes.</p>
         </div>
     </div>
+    
+    <footer>
+        <p>Copyright &copy; 2023 - Desenvolvido por <b><a href="https://www.linkedin.com/in/valdezjulian" target="_blank" title="Julian Valdez | LinkedIn">Julian Valdez</a></b></p>
+    </footer>
 </body>
 
     <script>
@@ -47,7 +51,7 @@
         let menu = document.getElementById("pergunta")
         let imagem = document.getElementById("imagem-pergunta") 
 
-        function abacate(){
+        function form(){
             if(menu.style.display == "block") {
                 menu.style.display = "none"
                 imagem.id = "imagem-pergunta"
@@ -57,7 +61,7 @@
             }
         }
 
-        botao.addEventListener("click", abacate)
+        botao.addEventListener("click", form)
     </script>
 
 </html>
