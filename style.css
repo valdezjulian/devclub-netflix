@@ -124,3 +124,174 @@ h2 {
 .paragrafo-pergunta {
     font-size: 24px;
 }
+
+footer {
+    padding: 1.625rem;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    text-align: center;
+    color:#ffffff;
+    background: #e50914;
+  }
+
+  p {
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+
+  a {
+    color:#ffffff;
+  }
+
+@media screen and (max-width: 900px){
+    input {
+        max-width: 400px;
+        width: 100%;
+    }
+   
+    #rodape {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #botao-email {
+        max-width: 200px;
+        width: 100%;
+    }
+
+    #botao-pergunta {
+        max-width: 650px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #pergunta {
+        max-width: 650px;
+        width: 100%;
+    }
+
+    p {
+        font-size: 100%;
+    } 
+
+@media screen and (max-width: 700px) {
+    h1 {
+        width: 100%;
+    }
+
+    input {
+        max-width: 350px;
+        width: 100%;
+    }
+
+    #botao-email {
+        max-width: 175px;
+        width: 100%;
+    }
+
+    #botao-pergunta {
+        max-width: 600px;
+        width: 100%;
+    }
+
+    #pergunta {
+        max-width: 600px;
+        width: 100%;
+    } 
+   
+@media screen and (max-width: 634px) {
+        h1 {
+            width: 100%;
+        }
+
+        #paragrafo-pronto {
+            width: 100%;
+        }
+
+        #botao-email {
+            font-size: 25px;
+        }
+
+        #botao-pergunta {
+            max-width: 550px;
+            width: 100%;
+        }
+        
+        #pergunta {
+            max-width: 550px;
+            width: 100%;
+        }
+    }
+        
+    @media screen and (max-width: 541px) {
+        h1 {
+            font-size: 40px;
+        }
+
+        h2 {
+            font-size: 40px;
+        }
+
+        input {
+            max-width: 320px;
+            width: 100%;
+        }
+    
+        #cabecalho {
+            padding: 28px 36px;
+        }
+
+        #botao-email {
+            max-width: 160px;
+            width: 100%;
+            font-size: 20px;
+        }
+
+        #botao-pergunta {
+            max-width: 500px;
+            width: 100%;
+        }
+    
+        #pergunta {
+            max-width: 500px;
+            width: 100%;
+        }
+    }
+
+    @media screen and (max-width: 360px) {
+        #cabecalho {
+            padding: 28px 30px;
+        }
+    }
+
+    @media screen and (max-width: 320px){
+        #logo-netflix {
+            width: 140px;
+        }
+
+        #cabecalho {
+            padding: 28px 20px;
+        }
+
+        #botao-email {
+            font-size: 20px;
+        }
+
+        h1 {
+            font-size: 35px;
+       }
+
+        h2 {
+            font-size: 35px;
+       }
+    }
+    }
+}
+
